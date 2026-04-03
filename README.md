@@ -28,6 +28,18 @@
 - `multi-platform-video-publisher`
 - “用多平台视频发布 skill 处理这个视频”
 
+## 首次运行前的权限提醒
+
+这个 skill 对应的主项目会涉及真实浏览器控制，所以第一次在新机器上使用时，要提醒操作者先检查这些权限：
+
+- macOS 辅助功能权限
+- macOS 自动化权限
+- 本地文件访问权限
+- Chrome 已登录目标平台账号
+- 平台站点本身的发布或管理员权限
+
+如果这些权限没有准备好，即使 skill 被正确触发，也可能在“能打开页面但无法上传、无法点击、无法发布”的状态卡住。
+
 ## 它关联哪个项目
 
 - 主项目仓库：<https://github.com/JackLee992/multi-platform-video-publisher>
