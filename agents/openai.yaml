@@ -1,0 +1,3 @@
+display_name: Multi-Platform Video Publisher
+short_description: Use the local publisher repo for draft creation, review, and cross-posting flows.
+default_prompt: Run or extend the local multi-platform video publisher workflow for Xiaohongshu, Douyin, and WeChat Channels.
